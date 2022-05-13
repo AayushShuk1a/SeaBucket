@@ -15,7 +15,6 @@ const Topics = () => {
     getTopic();
   }, []);
 
-  console.log(Topic);
   return (
     <div className="topics">
       <h1>Topics you can't miss</h1>
