@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://fishbucket.herokuapp.com/";
+const URL = "http://localhost:8000";
 
 export const getFaqs = async () => {
   const FAQ = await axios.get(`${URL}/faq`);
