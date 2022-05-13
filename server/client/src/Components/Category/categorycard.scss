@@ -1,0 +1,29 @@
+.Cards {
+  display: flex;
+  flex-direction: column;
+
+  height: 188px;
+  width: 300px;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  align-items: center;
+
+  img {
+    background-color: transparent;
+    width: auto;
+    height: 100px;
+  }
+
+  h4 {
+    background-color: transparent;
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+}

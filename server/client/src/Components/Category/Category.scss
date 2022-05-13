@@ -1,0 +1,21 @@
+.Category {
+  margin: 120px 120px 0;
+  text-align: left;
+
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  .Categories {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 60px;
+  }
+}

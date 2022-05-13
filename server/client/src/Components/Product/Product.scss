@@ -1,0 +1,25 @@
+.Products {
+  margin-top: 150px;
+
+  .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Icon {
+      position: absolute;
+      cursor: pointer;
+      z-index: 4;
+      background-color: transparent;
+      color: white;
+      font-size: 100px;
+    }
+
+    video {
+      margin-top: 70px;
+      width: 1200px;
+
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 60px;
+    }
+  }
+}
